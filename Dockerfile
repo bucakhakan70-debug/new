@@ -3,6 +3,9 @@ FROM php:8.2-apache
 # Proje dosyalarını kopyala
 COPY . /var/www/html/
 
+# APK dosyası için doğru MIME tipi
+RUN echo "AddType application/vnd.android.package-archive .apk" >> /etc/apache2/apache2.conf
+
 # Railway PORT için ayar
 EXPOSE 3000
 ENV PORT 3000
